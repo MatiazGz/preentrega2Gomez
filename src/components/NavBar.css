@@ -1,0 +1,12 @@
+.navcont{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(83, 83, 83);
+}
+.navitems{
+    display: flex;
+    gap: 30px;
+}
+.navcont i {
+    color: aliceblue;
+}
