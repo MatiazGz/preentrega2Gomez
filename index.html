@@ -1,16 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link
-      rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta favicon=""/> 
-    <title>Real Estate</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Llevalo UY</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Llevalo UY</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/cambio.html">Cambio</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Buscar"
+                id="buscador"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Nuestros Productos</h1>
+      <div id="app">
+        <div class="menu">
+          <div id="shopping-cart-container" class="hide"></div>
+        </div>
+        <div id="store-container"></div>
+      </div>
+
+      <h5 class="texto">
+        Si desea saber cuanto cuestan nuestros productos en su moneda puede usar
+        la opción de <a href="./pages/cambio.html">cambio</a>
+      </h5>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/buscador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>
