@@ -1,0 +1,39 @@
+[
+    {
+      "nombre": "notebook",
+      "precio": 800,
+      "id": 0,
+      "cant": 8
+    },
+    {
+      "nombre": "funkopop",
+      "precio": 20,
+      "id": 1,
+      "cant": 60
+    },
+    {
+      "nombre": "auriculares",
+      "precio": 50,
+      "id": 2,
+      "cant": 35
+    },
+    {
+      "nombre": "tablet",
+      "precio": 100,
+      "id": 3,
+      "cant": 25
+    },
+    {
+      "nombre": "tv",
+      "precio": 500,
+      "id": 4,
+      "cant": 20
+    },
+    {
+      "nombre": "playstation",
+      "precio": 700,
+      "id": 5,
+      "cant": 5
+    }
+  ]
+  
